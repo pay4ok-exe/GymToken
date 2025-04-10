@@ -1,0 +1,72 @@
+/* GymToken App Styles */
+.main-layout {
+  min-height: 100vh;
+}
+
+.site-header {
+  background: linear-gradient(90deg, #001529, #003a70);
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.site-logo {
+  height: 40px;
+  margin-right: 16px;
+}
+
+.site-content {
+  padding: 24px;
+  background: #f0f2f5;
+}
+
+.site-footer {
+  text-align: center;
+  background: #001529;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 16px;
+}
+
+.auth-card {
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.dashboard-card {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+.token-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.transaction-list {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .site-content {
+    padding: 16px;
+  }
+  
+  .auth-card {
+    margin: 20px auto;
+  }
+}
